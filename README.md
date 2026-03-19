@@ -68,13 +68,14 @@ using **gradient descent**.
 ## Example Parameters
 
 You can test the model using the following inputs:
-5 2 0 10 100 1 // low noise
-5 2 0 10 100 5 // medium noise
-5 2 0 10 100 15 // high noise
-50 -2 0 20 100 2 // negative trend
 
-Format: a b xmin xmax n standardDeviation
+- `5 2 0 10 100 1` — low noise  
+- `5 2 0 10 100 5` — medium noise  
+- `5 2 0 10 100 15` — high noise  
+- `50 -2 0 20 100 2` — negative trend  
 
+Format:
+`a b xmin xmax n standardDeviation`
 
 ---
 
@@ -84,6 +85,20 @@ Format: a b xmin xmax n standardDeviation
 - .NET (WinForms)
 - Data visualization (System.Windows.Forms.DataVisualization)
 - Gradient Descent optimization
+
+---
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nadiatopikha/linear-regression-winforms.git
+2. Open the project in Visual Studio
+
+3. Build and run the application
+
+4. Enter parameters in the format: a b xmin xmax n standardDeviation
+5. Generate data and select vectors to reconstruct the model
 
 ---
 
